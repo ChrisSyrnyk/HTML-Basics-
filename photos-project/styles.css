@@ -1,0 +1,63 @@
+/* styles.css */
+
+darkbox {
+    color: black;
+    background-color: black;
+    height: auto;
+    width: 1000px;
+}
+
+.headerbox{
+    color: white;
+    background-color: dimgray;
+    width: 100%;
+    padding: 1px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.photosbox{
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    text-align: left;
+}
+
+.bodybox{
+    color: white;
+    background-color: rgba(87, 80, 80, 0.5);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    
+    text-align: left;
+}
+
+
+    a:link {
+      color: black; 
+      background-color: transparent; 
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+ 
