@@ -3,31 +3,64 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Portrait Photos</title>
+    <title>Flex test</title>
   </head>
 
-  <body>
-    <div class="headerbox"> 
-    <h1>Browse some nice portrait photos</h1>
-    </div> 
-    <div class="photosbox">
-     <img src = "img/tower.JPG" alt="photo of a bulding at night" width="24.8%" height="24.8%">
-      <img src = "img/falls.JPG" alt="long exposure photo of the night sky over a river" width="24.8%" height="24.8%">
-      <img src = "img/waterfall.JPG" alt="long exposure photo of a waterfall running through some rocks" width="24.8%" height="24.8%">
-      <img src = "img/mountain.JPG" alt="photo of the sun set cast on the top of a mountain" width="24.8%" height="24.8%">
-      <img src = "img/bridge.JPG" alt="photo of an old bridge over a river valley" width="24.8%" height="24.8%">
-      <img src = "img/road.JPG" alt="photo of a long road in the fall" width="24.8%" height="24.8%">
-      <img src = "img/tree.JPG" alt="photo of a boardwalk between two large cedar trees" width="24.8%" height="24.8%">
-      <img src = "img/maui1.JPG" alt="photo of the clouds running over a volcanic crator" width="24.8%" height="24.8%">
-      <img src = "img/lake.JPG" alt="photo of a glossy lake at night" width="24.8%" height="24.8%">
-      <img src = "img/dock2.JPG" alt="photo of a boardwalk over a shallow lake" width="24.8%" height="24.8%">
-      <img src = "img/helicopter.JPG" alt="photo of a helicopter landing in the snow" width="24.8%" height="24.8%">
-      <img src = "img/graveyard.JPG" alt="photo of cemetary at night with a city scape in the background" width="24.8%" height="24.8%">
+<body>
+    <div class="flex-Header">
+            Browse some nice portrait photos
     </div>
-  </body>
-
-  <footer>
-    <div class="headerbox">
-            <a href="index.html"><h1>home page</h1></a>
+    <div class="flex-body-portrait">
+        <div class="flex-photo-card">
+            <img src = "img/tower.JPG" alt="photo of a bulding at night" class="portrait-photo">
         </div>
-  </footer>
+        <div class="flex-photo-card">
+            <img src = "img/waterfall.JPG" alt="long exposure photo of a waterfall running through some rocks" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/mountain.JPG" alt="photo of the sun set cast on the top of a mountain" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/bridge.JPG" alt="photo of an old bridge over a river valley" class="portrait-photo">
+        </div>
+    </div>
+    <div class="flex-body-portrait">
+        <div class="flex-photo-card">
+            <img src = "img/road.JPG" alt="photo of a long road in the fall" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/tree.JPG" alt="photo of a boardwalk between two large cedar trees" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/maui1.JPG" alt="photo of the clouds running over a volcanic crator" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/lake.JPG" alt="photo of a glossy lake at night" class="portrait-photo">
+        </div>
+    </div>
+    <div class="flex-body-portrait">
+        <div class="flex-photo-card">
+            <img src = "img/dock2.JPG" alt="photo of a boardwalk over a shallow lake" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/helicopter.JPG" alt="photo of a helicopter landing in the snow" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/graveyard.JPG" alt="photo of cemetary at night with a city scape in the background" class="portrait-photo">
+        </div>
+        <div class="flex-photo-card">
+            <img src = "img/falls.JPG" alt="long exposure photo of the night sky over a river" class="portrait-photo">
+        </div>
+    </div>
+    <div class="flex-footer">
+        <a href="index.html">Home page</a>
+    </div>
+</body>
+
+  <script type = "text/javascript">
+      function imageOverlay(identifier){
+                    if (identifier == 1){
+                        document.getElementById("1").src = "img/falls.JPG"
+                    }
+                };
+  </script>
