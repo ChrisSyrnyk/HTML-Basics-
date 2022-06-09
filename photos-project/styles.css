@@ -1,6 +1,6 @@
 /* styles.css */
 
-darkbox {
+.darkbox {
     color: black;
     background-color: black;
     height: auto;
@@ -24,7 +24,22 @@ darkbox {
     padding-bottom: 10px;
     margin: 5px;
     text-align: left;
+    position: relative;
 }
+
+.photosTextBox{
+    position: absolute;
+    top:10px;
+    left:0px;
+    width: 24.8%;
+    height: 24.8%;
+    opacity: 80%;
+    background-color: white;
+    
+    
+}
+
+
 
 .bodybox{
     color: white;
@@ -60,4 +75,96 @@ darkbox {
       background-color: transparent;
       text-decoration: underline;
     }
+
+
+.flex-Header {
+    display: flex;
+    background-color: dimgray;
+    border-width: 5px;
+    border-color: red;
+    height: 50px;
+    text-align: left;
+    padding-left: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.flex-footer {
+    display: flex;
+    background-color: dimgray;
+    border-width: 5px;
+    border-color: red;
+    height: 50px;
+    text-align: left;
+    padding-left: 5px;
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+
+
+.flex-body-photos{
+    display: flex;
+    background-color: white;
+    border-width: 5px;
+    border-color: red;
+    height: auto;
+}
+.flex-body-landscape {
+    display: flex;
+    background-color: white;
+    border-width: 5px;
+    border-color: red;
+    height: auto;
+}
+
+.flex-photo-card {
+    display: flex;
+    background-color: pink;
+    border-width: 5px;
+    border-color: red;
+    height: auto;
+    border: 5px;
+    width: 24.375%;
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+
+.flex-photo-card-landscape-large {
+    display: flex;
+    background-color: pink;
+    border-width: 5px;
+    border-color: red;
+    height: auto;
+    border: 5px;
+    width: 49.75%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-top: 1%;
+}
+
+.flex-photo-card-landscape-small {
+    display: flex;
+    background-color: pink;
+    border-width: 5px;
+    border-color: red;
+    height: auto;
+    border: 5px;
+    width: 24.375%;
+    margin-left: 0.3125%;
+    margin-right: 0.3125%;
+    margin-top: 1%;
+}
+
+.portrait-photo{
+    max-width:100%;
+    height: auto;
+}
+
+.landscape-photo{
+    max-width:100%;
+    height: auto;
+    
+}
  
